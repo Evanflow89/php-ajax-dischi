@@ -32,6 +32,6 @@ include __DIR__ . '/database.php';
     </div>
 </div>
 
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
