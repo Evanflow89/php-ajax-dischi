@@ -20,19 +20,17 @@
         <div class="container mb-4">
             <div class="row d-flex justify-content-center">
                 <ul>
-                    <div class="album col-lg-2 text-center pb-3"></div>
-                    <li v-for="album in albums">
+                    <li v-for="album in albums" class="album col-lg-2 text-center pb-3">
 
                         <img class="img-fluid p-3" :src="album.poster" :alt="album.title">
                         <h2>{{album.title}}</h2>
                         <div>{{album.author}}</div>
                         <span>{{album.year}}</span>
                     </li>
-            </div>
-            </ul>
+                </ul>
 
+            </div>
         </div>
-    </div>
 
     </div>
 
